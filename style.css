@@ -1,0 +1,168 @@
+/* Heading section */
+
+.heading_section .collapse ul li:hover{
+    background-color: red;
+    
+}
+.heading_section .collapse ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .heading_section  .navbar-toggler-icon{
+    background-color: black;
+    color: white;
+} */
+
+/* about us */
+
+.goal_section .img{
+    overflow: hidden;
+}
+.goal_section .img img{
+   transition: 0.4s;
+   cursor: pointer;
+   width: 100%;
+}
+.goal_section .img img:hover{
+    transform: scale(1.1);
+}
+.quality_section .quality .img{
+overflow: hidden;
+
+}
+.quality_section .quality .img img{
+    cursor: pointer;
+    transition: 0.4s;
+    width: 100%;
+    
+}
+.quality_section .quality .img img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* about us end */
+.about_section .text {
+    margin-top: 3rem;
+}
+.about_section .text h1{
+    background-color: blue;
+    color: white;
+   
+}
+.about_section .img{
+    overflow: hidden;
+}
+.about_section .img img{
+    transition: 0.4s;
+    cursor: pointer;
+}
+.about_section .img img:hover{
+    transform: scale(1.1);
+}
+
+
+/* department section */
+.department_section .department .card{
+    overflow: hidden;
+    width: 100% !important;
+    height: 510px !important;
+}
+.department_section .department .card img{
+    transition: 0.4s;
+    cursor: pointer;
+    width: 100%;
+    
+}
+.department_section .department .card img:hover{
+    transform: scale(1.1);
+}
+.department_section .department .card .btn{
+    transition: 0.4s;
+    border: none;
+}
+.department_section .department .card .btn:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+/* why choose section */
+
+.choose_us_section .text li p{
+    line-height: 2rem;
+}
+
+.choose_us_section .text .img{
+    overflow: hidden;
+}
+.choose_us_section .text .img img{
+    transition: 0.4s;
+}
+.choose_us_section .text .img img:hover{
+    transform: scale(1.1);
+}
+
+
+/*Academics Style  */
+
+/* department section */
+.department_head_section .bc{
+    background-color: #192F59;
+    color: white;
+    /* color: black; */
+}
+.department_head_section .mc{
+    background-color: #DFF0D8;
+}
+
+
+/* gellary section  */
+.gellary_section .gallery_img{
+    overflow: hidden;
+}
+.gellary_section .gallery_img img{
+    transition: 0.4s;
+    cursor: pointer;
+}
+.gellary_section .gallery_img img:hover{
+    transform: scale(1.1);
+}
+
+/* club section */
+.club_head_section .bc{
+    background-color: #192F59;
+    color: white;
+}
+.club_head_section .mc{
+    background-color: #DFF0D8;
+}
+
+.membership_section .img{
+overflow: hidden;
+}
+.membership_section .img img{
+   transition: 0.4s; 
+   cursor: pointer;
+}
+.membership_section .img img:hover{
+  transform: scale(1.1);  
+}
+
+
+
+
+
+
+
+/* facaletiy */
+
+.team_member .member .card{
+
+}
+.team_member .member .card .card-body{
+    text-align: center;
+}
