@@ -166,3 +166,17 @@ overflow: hidden;
 .team_member .member .card .card-body{
     text-align: center;
 }
+
+
+
+
+/* footer */
+.footer_section{
+    background-color: #000000 !important;
+}
+.footer_section .link ul{
+    text-decoration: none;
+}
+.footer_section .link ul li a{
+ color: #fff;
+}
