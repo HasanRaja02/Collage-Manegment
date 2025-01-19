@@ -1,13 +1,14 @@
-/* logoing */
-.logo_section .log{
-    border-radius: 50px;
-    float: right;
-}
+/* logoing  #2B2A29*/
+
 
 /* Heading section */
-
+.heading_section .collapse ul a button{
+    border: none;
+    border-radius: 50px;
+    
+}
 .heading_section .collapse ul li:hover{
-    background-color: orangered;
+    background-color: #F48000;
     
 }
 .heading_section .collapse ul a{
@@ -15,12 +16,25 @@
     color: black;
 }
 .heading_section .collapse ul a button:hover{
-    background-color: orangered;
+    background-color: #F48000;
 }
 
 .heading_section .collapse ul li a{
     text-decoration: none;
     color: black;
+}
+.heading_section .navbar .navbar-toggler:hover{
+    background-color: #F48000;
+}
+.heading_section .collapse ul .dropdown .dropdown-menu{
+    background-color: #000000;
+    
+} 
+.heading_section .collapse ul .dropdown .dropdown-menu a{
+    color: white;
+}
+.heading_section .collapse ul .dropdown .dropdown-menu a:hover{
+    background-color: #F48000;
 }
 
 /* .heading_section  .navbar-toggler-icon{
@@ -119,7 +133,11 @@ overflow: hidden;
 .choose_us_section .text .img img:hover{
     transform: scale(1.1);
 }
+/* about us page */
 
+/* .about .container {
+    background-color: #857f7f;
+} */
 
 /*Academics Style  */
 
@@ -188,26 +206,51 @@ overflow: hidden;
 .footer_section{
     background-color: #000000 !important;
 }
+.footer_section .link h3{
+    color: white;
+}
 .footer_section .link ul{
     text-decoration: none;
+    list-style: none;
 }
 .footer_section .link ul li a{
  color: #fff;
+ transition: 0.4s;
+}
+.footer_section .link ul li a:hover{
+    transform: scale(1.1);
+    background-color: #F48000;
 }
 .footer_section .follow h3{
     color: white;
 }
 .footer_section .follow a{
     text-decoration: none;
+    transition: 0.4s;
 }
 .footer_section .follow a img:hover{
     background-color: #fff;
     border-radius: 50px;
+    transform: scale(1.1);
 }
 
 .footer_section .contact h3{
     color: white;
 }
-.footer_section .contact ul li{
+.footer_section .contact ul li {
     list-style: none;
+}
+.footer_section .contact ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+}
+.footer_section .contact ul{
+    line-height: 3rem;
+}
+.footer_section .contact ul li a:hover{
+    transform: scale(1.1);
+    color: #F48000;
+   
 }
