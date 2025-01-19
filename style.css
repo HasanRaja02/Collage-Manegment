@@ -1,9 +1,23 @@
+/* logoing */
+.logo_section .log{
+    border-radius: 50px;
+    float: right;
+}
+
 /* Heading section */
 
 .heading_section .collapse ul li:hover{
-    background-color: red;
+    background-color: orangered;
     
 }
+.heading_section .collapse ul a{
+    text-decoration: none;
+    color: black;
+}
+.heading_section .collapse ul a button:hover{
+    background-color: orangered;
+}
+
 .heading_section .collapse ul li a{
     text-decoration: none;
     color: black;
@@ -179,4 +193,21 @@ overflow: hidden;
 }
 .footer_section .link ul li a{
  color: #fff;
+}
+.footer_section .follow h3{
+    color: white;
+}
+.footer_section .follow a{
+    text-decoration: none;
+}
+.footer_section .follow a img:hover{
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.footer_section .contact h3{
+    color: white;
+}
+.footer_section .contact ul li{
+    list-style: none;
 }
