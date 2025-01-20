@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Admission Form</title>
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .form-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="heading_section">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="menu_icn"><img src="img/menu_open_16dp_5F6368_FILL0_wght400_GRAD0_opsz20.png" alt="" width="30px"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="academics.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Academics
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="computer.html">Computer Department</a></li>
+                                <li><a class="dropdown-item" href="civil.html">Civil Department</a></li>
+                                <li><a class="dropdown-item" href="electrical.html">Electrical Department</a></li>
+                                <li><a class="dropdown-item" href="automobil.html">Automobile Department</a></li>
+                                <li><a class="dropdown-item" href="mechatrnics.html">Mechatronics Department</a></li>
+                                <li><a class="dropdown-item" href="mechanical.html">Mechanical Department</a></li>
+                                <li><a class="dropdown-item" href="gdpm.html">Apparel Manufacturing Department</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="admission.html">Admissions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faculty.html">Faculty</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="club.html.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                CPI Clubs
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="sporting_club.html">Sporting club</a></li>
+                                <li><a class="dropdown-item" href="paac.html">Performing Art & Cultural Club</a></li>
+                                <li><a class="dropdown-item" href="ict_club.html">ICT Club</a></li>
+                                <li><a class="dropdown-item" href="english_club.html">English Language Club</a></li>
+                                <li><a class="dropdown-item" href="civil_soft.html">Civil Soft Club</a></li>
+                                <li><a class="dropdown-item" href="rc.html">Robotic Club</a></li>
+                                <li><a class="dropdown-item" href="dc.html">Debating Club </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="onelin_admission.html">Online Addmission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <a class="nav-link ps-3" href="#">
+                            <button><i class="fa-solid fa-user pe-2"></i>Loging</button>
+                            </a>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="form_section">
+    <div class="form-container">
+        <h2 class="text-center mb-4">Online Admission</h2>
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="semester" class="form-label">Semester <span class="text-danger">*</span></label>
+                    <select class="form-select" id="semester" required>
+                        <option value="">Select</option>
+                        <option value="1">1st Semester</option>
+                        <option value="2">2th Semester</option>
+                        <option value="3">3rd Semester</option>
+                        <option value="4">4th Semester</option>
+                        <option value="5">5th Semester</option>
+                        <option value="6">6th Semester</option>
+                        <option value="7">7th Semester</option>
+                        <option value="8">8th Semester</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="gender" class="form-label">Gender <span class="text-danger">*</span></label>
+                    <select class="form-select" id="gender" required>
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="firstName" class="form-label">First Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="firstName" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="dob" class="form-label">Date of Birth <span class="text-danger">*</span></label>
+                    <input type="date" class="form-control" id="dob" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="mobileNumber" class="form-label">Mobile Number</label>
+                    <input type="tel" class="form-control" id="mobileNumber">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="category" class="form-label">Category</label>
+                    <select class="form-select" id="category">
+                        <option value="">Select</option>
+                        <option value="cst">Computer Science and Technology </option>
+                        <option value="ct">Civil Technology</option>
+                        <option value="et">Electrical Technology</option>
+                        <option value="at">Automobile Technology</option>
+                        <option value="mt">Mechatronics Technology</option>
+                        <option value="me">mechanical Technology</option>
+                        <option value="gdpm">Apparel Manufacturing Technology</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="religion" class="form-label">Religion</label>
+                    <input type="text" class="form-control" id="religion">
+                </div>
+                <div class="col-md-6">
+                    <label for="bloodGroup" class="form-label">Blood Group</label>
+                    <select class="form-select" id="bloodGroup">
+                        <option value="">Select</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="studentPhoto" class="form-label">Student Photo</label>
+                <input class="form-control" type="file" id="studentPhoto">
+            </div>
+
+            <h4 class="mb-3">Parent Details</h4>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="fatherName" class="form-label">Father Name</label>
+                    <input type="text" class="form-control" id="fatherName">
+                </div>
+                <div class="col-md-6">
+                    <label for="fatherPhone" class="form-label">Father Phone</label>
+                    <input type="tel" class="form-control" id="fatherPhone">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="fatherOccupation" class="form-label">Father Occupation</label>
+                    <input type="text" class="form-control" id="fatherOccupation">
+                </div>
+                <div class="col-md-6">
+                    <label for="fatherPhoto" class="form-label">Father Photo</label>
+                    <input class="form-control" type="file" id="fatherPhoto">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="motherName" class="form-label">Mother Name</label>
+                    <input type="text" class="form-control" id="motherName">
+                </div>
+                <div class="col-md-6">
+                    <label for="motherPhone" class="form-label">Mother Phone</label>
+                    <input type="tel" class="form-control" id="motherPhone">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="motherOccupation" class="form-label">Mother Occupation</label>
+                    <input type="text" class="form-control" id="motherOccupation">
+                </div>
+                <div class="col-md-6">
+                    <label for="motherPhoto" class="form-label">Mother Photo</label>
+                    <input class="form-control" type="file" id="motherPhoto">
+                </div>
+            </div>
+
+            <h4 class="mb-3">Guardian Details</h4>
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <label class="form-label">If Guardian Is <span class="text-danger">*</span></label><br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="guardianIs" id="guardianFather" value="father" required>
+                        <label class="form-check-label" for="guardianFather">Father</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="guardianIs" id="guardianMother" value="mother">
+                        <label class="form-check-label" for="guardianMother">Mother</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="guardianIs" id="guardianOther" value="other">
+                        <label class="form-check-label" for="guardianOther">Other</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="guardianName" class="form-label">Guardian Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="guardianName" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="guardianRelation" class="form-label">Guardian Relation <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="guardianRelation" required>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="guardianPhone" class="form-label">Guardian Phone</label>
+                    <input type="tel" class="form-control" id="guardianPhone">
+                </div>
+                <div class="col-md-6">
+                    <label for="guardianEmail" class="form-label">Guardian Email</label>
+                    <input type="email" class="form-control" id="guardianEmail">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="guardianOccupation" class="form-label">Guardian Occupation</label>
+                    <input type="text" class="form-control" id="guardianOccupation">
+                </div>
+                <div class="col-md-6">
+                    <label for="guardianPhoto" class="form-label">Guardian Photo</label>
+                    <input class="form-control" type="file" id="guardianPhoto">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="guardianAddress" class="form-label">Guardian Address</label>
+                <textarea class="form-control" id="guardianAddress" rows="3"></textarea>
+            </div>
+
+
+            <h4 class="mb-3">Miscellaneous Details</h4>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="nationalId" class="form-label">National Identification Number</label>
+                    <input type="text" class="form-control" id="nationalId">
+                </div>
+                <div class="col-md-6">
+                    <label for="previousSchool" class="form-label">Previous School Details</label>
+                    <input type="text" class="form-control" id="previousSchool">
+                </div>
+            </div>
+
+            <h4 class="mb-3">Upload Documents</h4>
+            <div class="mb-3">
+                <label for="documents" class="form-label">Documents (To upload multiple documents, compress them into a single file before uploading)</label>
+                <input class="form-control" type="file" id="documents" multiple>
+            </div>
+
+            <div class="mb-3">
+                <label for="captcha" class="form-label">Captcha</label>
+                <div class="d-flex">
+                    <img src="img/1737313324.3554.jpg" alt="Captcha" class="me-2" style="height: 38px;">
+                    <input type="text" class="form-control" id="captcha" placeholder="Enter Captcha">
+                </div>
+            </div>
+
+
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-secondary">Check Your Form Status</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+    <section class="footer_section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="link pt-5">
+                        <h3>Links</h3>
+                        <ul class="me-auto mb-2 mb-lg-0">
+                            <li>
+                                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="about.html">About us</a>
+                            </li>
+                            
+                            <li>
+                                <a class="nav-link" href="admission.html">Admissions</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="faculty.html">Faculty</a>
+                            </li>
+                            
+                            <li>
+                                <a class="nav-link" href="admission.html">Online Addmission</a>
+                            </li>
+                            <li >
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 follow pt-5">
+                    <h3 class="pb-3">
+                        Follow Us
+                    </h3>
+                    <a href="#">
+                        <i><img src="img/fb.png" width="50px" alt=""></i>
+                    </a>
+                    <a href="#">
+                        <i><img src="img/youtube.png" width="50px"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 contact pt-4">
+                    <h3 class="pt-3">
+                        Contact 
+                    </h3>
+                   <ul>
+                    <li class="pt-3">
+                        <i class="envelope">
+                            <img src="img/env.jfif" width="25px" alt=""><a href="#" class="ms-3">cpimt.edu@gmail.com</a>
+                        </i>
+                    </li>
+                    <li class="pt-3">
+                        <i class="phone text-white">
+                            <img src="img/call.png" width="25px" alt="" class="me-3">    01712345678
+                        </i>
+                    </li>
+                    <li class="pt-3">
+                        <i class="text-white"><img src="img/locketion.png" alt="" width="35px">  Plot No: #17, Lane: #01 Block: #B, Mirpur – 6 Dhaka-1216, Bangladesh </i>
+                    </li>
+                   </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="vendor/bootstrap.min.js"></script>
+</body>
+</html>

@@ -173,22 +173,54 @@ overflow: hidden;
     background-color: #DFF0D8;
 }
 
+
 .membership_section .img{
 overflow: hidden;
+padding-top: 2rem;
+padding-bottom: 2rem;
 }
 .membership_section .img img{
    transition: 0.4s; 
    cursor: pointer;
+  
 }
 .membership_section .img img:hover{
   transform: scale(1.1);  
 }
+.membership_section .from .btn{
+    overflow: hidden;
+}
+.membership_section .from .btn button{
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.membership_section .from .btn button:hover{
+    transform: scale(1.1);
+    background-color: cyan;
+    color: black;
+    border:none;
+}
+/* .gallery_section h2{
+    border-bottom: 2px solid black;
+    
+} */
+.gallery_section .img{
+    overflow: hidden;
+}
+.gallery_section .img img{
+    width: 100%;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.gallery_section .img img:hover{
+    transform: scale(1.1);
+}
 
 
 
 
-
-
+/* clube end */
 
 /* facaletiy */
 
@@ -199,9 +231,36 @@ overflow: hidden;
     text-align: center;
 }
 
+/* form section */
+.form_section{
+    background-color: #f8f9fa;
+}
+.form_section .form-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* tuition_fee_section */
+.tuition_fee_section ul li{
+    list-style: none;
+    line-height: 2rem;
+}
+.tuition_fee_section .img{
+    overflow: hidden;
+}
+.tuition_fee_section .img img{
+    transition: 0.4S;
+}
+.tuition_fee_section .img IMG:hover{
+    transform: scale(1.1);
+}
 
-
-
+.table_section{
+    
+}
 /* footer */
 .footer_section{
     background-color: #000000 !important;
