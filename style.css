@@ -18,12 +18,47 @@ body .up_arrow:hover{
     color: #ffffff;
 }
 /* Heading section */
-.heading_section{
+/* .heading_section{
     padding-top: 2rem;
-}
+} */
+ .heading_section.active_sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: 0.5s;
+ }
+ .heading_section.active_sticky .navbar{
+    background-color: skyblue !important;
+   
+    transition: 0.5s;
+ }
+ /* .heading_section.active_sticky .navbar .navbar-brand img{
+    transition: 0.5s;
+ }
+ .heading_section.active_sticky .navbar .navbar-brand img:hover{
+    transform: scale(1.1);
+ } */
+ /* .heading_section.active_sticky .navbar .navbar-toggler{
+    background-color: #F48000;
+ }
+ .heading_section.active_sticky .navbar .navbar-toggler:hover{
+    background-color: #F48000;
+ }
+ .heading_section.active_sticky .navbar .navbar-toggler .navbar-toggler-icon{
+    color: white;
+ }
+ .heading_section.active_sticky .navbar .navbar-toggler .navbar-toggler-icon:hover{
+    background-color: #F48000;
+ } */
+ .heading_section .collapse ul li{
+    list-style: none;
+    padding: 10px;
+    border-radius: 30px;
+ }
 .heading_section .collapse ul a button{
     border: none;
-    border-radius: 50px;
+    border-radius: 30px;
     
 }
 .heading_section .collapse ul li:hover{

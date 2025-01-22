@@ -33,6 +33,20 @@ up_arrow.onclick = function () {
     });
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+    let menubar = document.querySelector(".heading_section");
+
+    window.addEventListener("scroll", () => {
+
+        if (window.scrollY > menubar.offsetHeight) {
+            
+            menubar.classList.add("active_sticky");
+        }else{
+            menubar.classList.remove("active_sticky");
+        }
+       
+    });
+});
 
 
 
